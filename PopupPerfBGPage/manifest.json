@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+
+  "name": "Popup Performance BG Page Test",
+  "description": "Chrome Extension to Demonstrate Popup Performance Issue - With Background Page",
+  "version": "1.0",
+
+  "permissions": [
+  ],
+  "browser_action": {
+    "default_icon": "images/icon.png",
+    "default_popup": "popup.html"    
+  },
+  "background": {
+    "scripts": ["bgHelper.js"],
+    "persistent": true
+  }
+}
